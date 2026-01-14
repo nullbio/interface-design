@@ -246,10 +246,7 @@ See `reference/examples/` for complete system files:
 
 **This repo was renamed from `claude-design-skill` (983⭐).**
 
-All old URLs redirect automatically:
-- ✅ `https://github.com/Dammyjay93/claude-design-skill` → redirects here
-- ✅ Your Reddit links still work
-- ✅ Stars and forks transferred
+All old URLs redirect automatically
 
 **If you installed the old skill:**
 
