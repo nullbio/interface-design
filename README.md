@@ -56,10 +56,10 @@ See the difference: **[dashboard-v4-eta.vercel.app](https://dashboard-v4-eta.ver
 /plugin marketplace add Dammyjay93/claude-design-engineer
 
 # Install the plugin
-/plugin marketplace install design-engineer design-engineer
+/plugin menu
 ```
 
-Restart Claude Code after installing.
+Select `design-engineer` from the menu. Restart Claude Code after.
 
 Gets you:
 - Smart workflows (APPLY, ESTABLISH, EXTEND modes)
@@ -196,10 +196,10 @@ This file loads automatically at session start. Claude sees it and maintains con
 ## Commands
 
 ```bash
-/design-engineer              # Smart status/suggestions
-/design-engineer status       # Show current system
-/design-engineer audit <path> # Check code against system
-/design-engineer extract      # Extract patterns from existing code
+/design-engineer:init           # Smart dispatcher (detects mode automatically)
+/design-engineer:status         # Show current system
+/design-engineer:audit <path>   # Check code against system
+/design-engineer:extract        # Extract patterns from existing code
 ```
 
 ---
@@ -263,7 +263,7 @@ rm -rf ~/.claude/skills/design-principles
 
 # Install new plugin
 /plugin marketplace add Dammyjay93/claude-design-engineer
-/plugin marketplace install design-engineer design-engineer
+/plugin menu
 ```
 
 Your system.md files (if any) continue to work — just rename `.ds-engineer/` to `.design-engineer/`.
