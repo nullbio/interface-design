@@ -373,3 +373,19 @@ Add patterns when a component is used 2+ times, is reusable across the project, 
 If system.md defines values, check against them: spacing on the defined grid, depth using the declared strategy throughout, colors from the defined palette, documented patterns reused instead of reinvented.
 
 This compounds — each save makes future work faster and more consistent.
+
+---
+
+# Deep Dives
+
+For more detail on specific topics:
+- `references/principles.md` — Code examples, specific values, dark mode
+- `references/validation.md` — Memory management, when to update system.md
+- `references/critique.md` — Post-build craft critique protocol
+
+# Commands
+
+- `/interface-design:status` — Current system state
+- `/interface-design:audit` — Check code against system
+- `/interface-design:extract` — Extract patterns from code
+- `/interface-design:critique` — Critique your build for craft, then rebuild what defaulted
