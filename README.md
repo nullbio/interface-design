@@ -57,7 +57,7 @@ See the difference: **[interface-design.dev/examples.html](https://interface-des
 
 ```bash
 # Add the marketplace
-/plugin marketplace add Dammyjay93/interface-design
+/plugin marketplace add nullbio/interface-design
 
 # Install the plugin
 /plugin menu
@@ -74,7 +74,7 @@ Gets you:
 ### Manual (Advanced)
 
 ```bash
-git clone https://github.com/Dammyjay93/interface-design.git
+git clone https://github.com/nullbio/interface-design.git
 cd interface-design
 cp -r .claude/* ~/.claude/
 cp -r .claude-plugin/* ~/.claude-plugin/
@@ -248,7 +248,7 @@ All old URLs redirect automatically.
 rm -rf ~/.claude/skills/design-principles
 
 # Install new plugin
-/plugin marketplace add Dammyjay93/interface-design
+/plugin marketplace add nullbio/interface-design
 /plugin menu
 ```
 
@@ -273,5 +273,5 @@ MIT — See [LICENSE](LICENSE)
 ---
 
 <p align="center">
-  <a href="https://interface-design.dev">Website</a> · <a href="https://github.com/Dammyjay93/interface-design">GitHub</a>
+  <a href="https://interface-design.dev">Website</a> · <a href="https://github.com/nullbio/interface-design">GitHub</a>
 </p>
